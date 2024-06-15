@@ -1,6 +1,6 @@
-.PHONY: dep test
+.PHONY: deps test
 
-dep:
+deps:
 	pip install -r requirements.txt; \
 		pip install -r test_requirements.txt
 
